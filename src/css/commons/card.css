@@ -1,0 +1,198 @@
+/* Old Cards - */
+.card {
+	background: white;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    overflow: hidden;
+}
+
+.invisible-card {
+    margin: 5px;
+    font-size: 13px !important;
+    line-height: 17px;
+    overflow: hidden;
+}
+
+
+/* New Cards */
+.article-card{
+	margin-bottom : 20px;
+}
+
+.category-label{
+	text-align: center;
+	color :black;
+	text-transform: uppercase;
+}
+
+.category-label > div{
+	display: block;
+	text-align: center;
+	margin-top: -27px;
+	font-size: 20px;
+}
+
+.category-label span{
+	border-top: 2px solid #05B6BD;
+	color: #05B6BD;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.category-label.parenting span{
+	border-top: 2px solid #FF547C;
+	color: #FF547C;
+}
+
+.category-label.lifestyle  span{
+	border-top: 2px solid #009FA0;
+	color: #009FA0;
+}
+
+.category-label.celebrity  span{
+	border-top: 2px solid #EF8A3F;
+	color: #EF8A3F;
+}
+
+.article-card .overlay{
+	display: block;
+    position: relative;
+    background: white;
+    padding: 10px;
+    margin: -40px auto 20px;
+    color: #080a0b;
+    text-align: center;
+    border: 1px solid #CCC;
+	font-family: "Playfair Display",serif;
+    width: 260px;
+    font-weight: bold;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+
+/*Card small used in trending widget*/
+.card-small{
+	padding: 0px; 
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #D9D9D8;
+}
+
+.card-small-img{
+	padding-left: 0px;	
+}
+
+.card-small-title{
+	padding: 0px;	
+}
+
+.card-small-title span{
+	font-size: 18px;
+	line-height: 21px;
+	font-family: "Playfair Display", serif;
+	font-weight: bold;
+	color: #080a0b; 
+}
+
+/*  Card category overlay  */
+
+.card-category .category-label > div{
+	margin-top: -15px;
+}
+
+.card-category .category-label{
+	margin-bottom: 10px;
+}
+
+.card-category .post-time {
+    font-family: "Open Sans",sans-serif;
+    font-size: 10px;
+	color: #BDBDBD;
+}
+
+
+.card-category.regular  .overlay {
+ 	margin: 0px auto 20px;
+	border: none;
+	border-bottom: 2px solid #E6E6E6;
+	width: 100%;
+}
+
+.card-category.regular .title{
+	font-size: 18px;
+}
+
+.card-category .title {
+    display: block;
+    position: relative;
+    padding: 0 10px;
+    font-size: 1.125em;
+    color: #000;
+    font-weight: bold;
+    font-family: "Playfair Display",serif;
+    line-height: 23px;
+}
+
+
+
+@media screen and (max-width: 375px){
+	.article-card .overlay{
+    	width : 80%;
+	}
+}
+
+@media screen and (min-width: 759px){
+	.article-card .overlay{
+		min-height: 95px;
+		width : 80%;
+		font-weight: bold;
+	}
+	
+}
+
+@media screen and (min-width: 1280px){
+ .article-card .overlay{
+ 	font-size:24px;
+	line-height:30px;
+ }	
+
+ .article-card.featured .overlay{
+	width: 495px;
+	font-size: 26px;
+	line-height: 33px;
+	padding: 18px 50px 22px;
+ }
+
+}
+
+@media screen and (min-width: 1024px){
+
+	.card-category .overlay{
+		width: 458px;
+	}
+
+	.card-category .category-label{
+		font-size: 15px;
+	}
+	
+	.card-category .post-time{
+		font-size: 14px;
+	}
+	
+	.card-category .category-label > div{
+		margin-top: -19px;
+	}
+
+
+	.card-category .title {
+	    font-size: 26px;
+	    line-height: normal;
+	}
+	
+	.card-category.regular .title{
+		font-size: 24px;
+	}
+
+}

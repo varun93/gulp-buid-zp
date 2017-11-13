@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+a{vertical-align: baseline;}
+
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+
+
+html, body {
+  display: block;
+  height: 100%;
+  min-height: 100%;
+}
+
+table, tr, td {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+ul, li, ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: none;
+}
+
+body {
+  margin: 0;
+  border: 0;
+ }
+
+body,body p,body ul{
+   font-size: 16px;
+   font-family: "Open Sans",sans-serif;
+}
+
+ul{
+  padding-left: 0px;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+
+section.content{
+  padding-top: 120px;
+}
+
+@media screen and (max-width: 600px){
+  section.content{
+   padding-top: 65px;
+  }
+} 
+
+/* Margin Utils */
+.margin-bottom-5{
+  margin-bottom: 20px;
+}
+
+.margin-bottom-10{
+  margin-bottom: 10px;
+}
+
+.margin-bottom-15{
+  margin-bottom: 20px;
+}
+
+.margin-bottom-20{
+  margin-bottom: 20px;
+}
+/* End of margin utils */
+
+.trending-homepage h3{
+    overflow: hidden; 
+    padding-left: 5px;
+    margin: 0px 0px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.trending-homepage h3:after,.related-posts h4::after{
+  content: '';
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  height: 100%;
+  width: 60%;
+  margin-right: -100%;
+  border-bottom: 2px solid #8675A1;
+}
+
+.sidebar .category-label{
+  display: none;
+}
+
+@media screen and (min-width: 1024px){
+  
+  .sidebar{
+    padding-left: 60px;
+  } 
+
+}
+
+@media screen and (max-width: 600px){
+  .trending-homepage h3:after{
+    width: 50%;
+  }
+} 
+
+/*Old Styles*/
+/**
+ * 
+*/
+
+body > section {
+    margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+    body > section {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    body > section {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body > section {
+        width: 1170px;
+    }
+}
+p.title {
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.title {
+    color: #FF547C;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+      text-align: right;
+}
+p.description, .description {
+    color: #009FA0;
+}
+img {
+    max-width: 100%;
+}
+div.clear {
+    clear: both;
+    display: none !important;
+}
+#ajax-loader
+{   
+    display: none;  
+    position:fixed;
+    top:50%;
+    bottom:50%;
+    left: 50%;
+    z-index: 1051;
+}
+

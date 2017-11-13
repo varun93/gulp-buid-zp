@@ -1,0 +1,111 @@
+.group-list .col-xs-12 .col-xs-12 {
+    margin-top: -5px;
+}
+
+.group-list .col-xs-12 .col-xs-12.col-lg-12:first-child {
+    margin-top: 0px;
+}
+
+.group-list .group-item {
+    position: relative;
+}
+
+.group-list .group-item > div {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.group-list .group-item > .group-img {
+    float: left;
+}
+
+.admin-message > .group-img > img,
+.admin-img > img,
+.group-list .group-item > .group-img > img {
+    height: 45px;
+    width: 45px;
+}
+
+.group-list .group-item > .group-info {
+    font-size: 15px;
+}
+
+.group-item .group-info .group-title {
+    color: #009FA0;
+    font-weight: bold;
+}
+
+.group-item .group-info .group-description {
+    color: #555;
+}
+
+.group-list .group-item > .group-info > .group-description {
+    display: inline-block;
+}
+
+.group-item .group-info .group-title,
+.group-list .group-item > .group-info > .group-description {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 170px;
+}
+
+.group-list .group-item > .group-meta-info,
+.group-list .group-item > .group-meta-info span.badge {
+    font-size: 13px;
+}
+
+.group-list .group-item > .group-meta-info{
+    padding-top: 10px;
+}
+
+.group-list .group-item > .group-meta-info {
+    float: right;
+}
+
+.group-list .group-item > .group-meta-info > .group-unread-count {
+    text-align: right;
+}
+
+.group-list .card.group-item .group-join {
+    position: absolute;
+    top: 0;
+    right: -5px;
+    height: 100%;
+    padding: 0 30px;
+    background: #8675A1;
+}
+
+.group-list .card.group-item .group-join > span {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    display: block
+}
+
+.badge {
+    background: #009FA0;
+    padding: 5px;
+    border-radius: 50%;
+    color : white;
+    color: #fff;
+    font-weight: 700;
+}
+.recommended-groups .group-join {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 375px){
+    .group-item .group-title, .group-item .group-description {
+        width: 225px !important;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .group-item .group-title, .group-item .group-description {
+        width: 495px !important;
+    }
+}

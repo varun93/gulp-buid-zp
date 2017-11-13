@@ -1,0 +1,125 @@
+.lifestage-wrapper{
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    vertical-align: top;
+    opacity: 0.4;
+}  
+
+.lifestage-wrapper.selected{
+    opacity: 1;
+}
+
+.lifestage-selector{
+    margin-bottom:20px; 
+}
+
+.lifestage-label{
+    display: block;
+    padding : 10px;
+    position: relative;
+    background: white;
+    margin: -15px auto 20px;
+    color: #080a0b;
+    text-align: center;
+    border: 1px solid #CCC;
+    font-family: "Playfair Display",serif;
+    width: 85%;
+}
+
+.lifestage-label h4{
+    color: #4a4a4a;
+    font-size: 14px;
+}
+    
+/* Interests */
+.interest {
+    border: 1px solid #777;
+    padding: 0px 10px;
+    display: inline-block;
+    border-radius: 3px;
+    margin: 5px; 
+    color: #777;
+}
+.selected-interest {
+    background-color: #777;
+    color: #fff;
+}
+
+#save-preferences{
+    color: white;
+    display: block;
+    background: #777;
+    margin-top : 20px;
+    width: 50%; 
+}
+
+/* Select Wrapper */
+.select-wrapper{
+    text-align: center;
+}
+
+.select-wrapper label {
+    color: #9b9b9b;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.select-wrapper select {
+    border: 1px solid #efedee;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    color: #4a4a4a;
+    font-size: 13px;
+    width: 80px!important;
+    height: 35px;
+    margin: 0 4px;
+    padding: 4px 8px;
+}
+
+.select-wrapper select.form-control {
+    -webkit-appearance: menulist;
+}
+
+@media screen and (min-width: 768px){
+
+    .interests-wrapper{
+        padding-left: 45px;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+   
+    .select-wrapper select {
+        display: inline-block;
+        padding: 4px;
+        font-size: 12px;
+        width: 55px;
+        margin: 0 1px;
+   
+    }
+}
+
+@media screen and (max-width: 450px){
+    
+    .lifestage-image img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .lifestage-label h4{
+        font-size: 12px;
+    }
+
+    .lifestage-label{
+        width: 90%;
+    }
+
+    .interest{
+        padding : 0px 5px;
+    }
+    
+}
+

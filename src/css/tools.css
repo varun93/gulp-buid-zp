@@ -1,0 +1,456 @@
+.one-fourth-width {
+    width: 25%;
+}
+h5 {
+  color: #159292;
+  font-weight: 300;
+  font-size: 16px;
+}
+.nav-list .nav-item .nav-text {
+    font-size: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+.sub-header .nav-list {
+    margin: 0;
+    padding: 0;
+}
+.gb-tools-toolbar .nav-item {
+  background-color: #159292;
+  padding: 1px;
+  box-sizing: border-box;
+}
+.gb-tools-toolbar .nav-item.active {
+    position: relative;
+    background: #ef547c;
+}
+.gb-tools-toolbar .active::after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(239, 84, 124, 0);
+  border-top-color: #ef547c;
+  border-width: 10px;
+  margin-left: -10px;
+}
+.form-inline input,.form-inline select {
+  margin: 0px 10px 0px 0px;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid #f00;
+}
+
+div.sub-header ul.nav-list li.nav-item.active div 
+{
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+div.gb-tools-toolbar ul.nav-list li div
+{
+  display: block;
+}
+div.gb-tools-toolbar ul.nav-list li.nav-item {
+  list-style: none;
+  float: left;
+  width: 20%;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+div.gb-tools-toolbar ul.nav-list li.nav-item a
+{
+  text-decoration: none;
+}
+
+div.tool-help {
+  margin-top: 10px;
+}
+.zen-calendar .ui-datepicker-inline {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+.zen-calendar .ui-datepicker-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+}
+.zen-calendar .ui-datepicker-header {
+  position: relative;
+  margin-top: 10px;
+}
+.zen-calendar .ui-datepicker-prev span {
+  background-image: url(../gb-assets/icons/tools/caret-left.png);
+  text-indent: -9999px;
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  left: 20px;
+  top: 2px;
+}
+.zen-calendar .ui-datepicker-next span {
+  background-image: url(../gb-assets/icons/tools/caret-right.png);
+  text-indent: -9999px;
+  display: inline-block;
+  position: absolute;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  right: 20px;
+  top: 2px;
+}
+.zen-calendar .ui-datepicker-calendar {
+  margin-top: 20px;
+  width: 100%;
+}
+.zen-calendar .ui-datepicker-calendar td,th {
+  width: 14.28%;
+  text-align: center;
+  font-size: 16px;
+  padding: 5px 0px;
+}
+.zen-calendar .ui-datepicker-calendar th {
+  color: #159292;
+  font-weight: bold;
+}
+.zen-calendar .ui-datepicker-calendar td a {
+  color: #666666;
+}
+.zen-calendar .ui-datepicker-calendar td.ui-datepicker-current-day a {
+  background-color: #fc567e;
+  color: #fff;
+  border-radius: 20px;
+  padding: 4px 8px;
+}
+.zen-calendar .ui-datepicker-calendar td.ui-datepicker-today a {
+  background-color: #159292;
+  color: #fff;
+  border-radius: 20px;
+  padding: 4px 8px;
+}
+.appointment-card .container {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+.appointment-card {
+  display: table;
+  width: 100%;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+.appointment-date {
+  display: table-cell;
+  padding: 5px 20px;
+  width: 20%;
+  padding-top: 10px;
+  color: #fc567e;
+  background-color: #fff;
+}
+.appointment-title {
+  width: 80%;
+  display:table-cell;
+  padding: 5px 20px;
+  padding-top: 10px;
+  color: #fff;
+  background-color: #fc567e;
+}
+.calendar-header {
+  width: 100%;
+  color: #fff;
+  background-color: #DC7D44;
+  padding: 8px;
+}
+.calendar-header img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 25px;
+}
+.calendar-header .title {
+  color: #fff;
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.calendar-header div.circled-icon {
+  background-color: #169797;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 1px 10px;
+  margin: 0px 10px;
+}
+.card .form-horizontal {
+  padding: 20px 0px;
+}
+.card .form-horizontal label {
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.btn-tool-submit, .btn-tool-submit:active, .btn-tool-submit:focus, .btn-tool-submit:active:focus {
+  background-color: #807698;
+  border-radius: 0;
+  color: #fff;
+  padding: 5px 30px;
+}
+.btn-tool-submit:hover {
+  background-color: #807698;
+  color: #fff;
+}
+.form-horizontal .form-control {
+  border-radius: 0;
+  border-color: #fdcad4;
+}
+.invisible-card {
+  padding-right: 25px;
+}
+.sub-header .nav-list .nav-item .nav-image > svg,
+.sub-header .nav-list .nav-item .nav-image > img {
+    height: 25px;
+    width: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width:768px){
+  .sub-header .nav-list .nav-item .nav-image > svg,
+    .sub-header .nav-list .nav-item .nav-image > img {
+        height: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+  div.gb-tools-toolbar ul.nav-list li.nav-item
+  {
+    width: 20%;
+    margin: 0px;
+  }
+  #tools div.nav-image
+    {
+     display: block !important;  
+    }
+    .label_title{
+      padding-right: 20px;
+    }
+}
+
+@media screen and (max-width:414px){
+  div.gb-tools-toolbar ul.nav-list li.nav-item div.nav-text {
+    font-size: 8px;
+  }
+  .weight{
+   width: 47% !important;
+  }
+  .discription {
+    font-size: 15px !important;
+  }
+  td {
+    font-size: 15px !important;
+  }
+
+}
+
+/*  Styles for Due Date Calculator  */
+
+#due-date-calculator #calculate-due-date, #calculate-ovulation-date ,.calculate{
+  background: #8675A1;
+  color: white;
+  border-radius: 0px;
+  margin-top: 15px;
+}
+
+#due-date-calculator input,#due-date-calculator select,#tools-calculator input,#tools-calculator select {
+    border-radius: 0px !important;
+    border: 1px solid #FF547C !important;
+}
+
+#due-date-display
+{
+  color: #FF547C;
+}
+.rashi-view
+{
+  background: #f7f7f7;
+}
+.rashi-view h2{
+  font-family: Arial;
+  font-size: 14px;
+  color: #323232;
+}
+.rashi-description{
+  margin: -50px 20px 0px 20px;
+  background: #ef547c;
+}
+.rashi-details{
+  padding: 50px 0px 30px 0px;
+  color: #fff;
+}
+.discription{
+font-family: Arial;
+font-size: 20px;
+padding: 5px;
+font-weight: bold;
+line-height: 20px;
+text-align: center;
+}
+.discription a {
+    color: #fff;
+
+}
+.rashi-image img{
+  display: block;
+  margin: 0 auto;
+}
+.calculate-view{
+  margin-top: 5px;
+}
+.inline{
+  display: inline-block;
+}
+.inline + .inline{
+  margin-left:10px;
+}
+.radio{
+  color:#fc567e;
+  position:relative;
+}
+.radio span{
+  position:relative;
+   padding-left:20px;
+}
+.radio span::after{
+  color:#fc567e;
+  content:'';
+  width:15px;
+  height:15px;
+  border:2px solid;
+  position:absolute;
+  left:0;
+  top:1px;
+  border-radius:100%;
+}
+.radio input[type="radio"]{
+   cursor: pointer; 
+  position:absolute;
+  z-index: 1;
+  opacity: 0;
+}
+.radio input[type="radio"]:checked + span{
+  color:#fc567e;  
+}
+.radio input[type="radio"]:checked + span::before{
+  content:'';
+  width:5px;
+  height:5px;
+  position:absolute;
+  background:#fc567e;
+  left:5px;
+  top:6px;
+  border-radius:100%;
+}
+.radio_text{
+  color: #333 !important;
+  font-weight: normal;
+}
+.weight-calculator,.rashi-calculator{
+  text-align: center;
+
+}
+.tracker_reult{
+  margin-top: 10px;
+  padding: 10px 20px 10px 20px;
+  color: #fff;
+}
+.signup_details{
+  margin-top: 10px;
+  text-align: center;
+}
+.signup{
+  background: #ef547c;
+  margin:0px;
+
+
+}
+@media (max-width: 767px) {
+  .rashi-calculator{
+    padding: 0px;
+  }
+  .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    padding: 0px;
+  }
+  .tracker-form{
+     width: 100%;
+  }
+
+  .form-inline select {
+  margin: 0px 2px 0px 2px;  
+  }
+  div.gb-tools-toolbar ul.nav-list li.nav-item {
+    width: 20%;
+  }
+  #find-zodiac{
+  margin: 0px;
+  }
+
+}
+.table_header{
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  color: #fff !important;
+  background: #fc567e;
+}
+
+table {
+    width:100%;
+}
+table {
+    border-collapse: collapse;
+}
+th, td {
+    font-weight: bold;
+    padding: 5px;
+    text-align: left;
+    font-size: 18px;
+}
+table.table_view td:nth-child(odd) {
+    border-right-style: dashed;
+    border-color: #a5a4a4;
+    border-right-width: 2px;
+}
+table.table_view td:nth-child(even) {
+  text-align: center;
+  color: #fc567e;
+}
+table.table_view tr:nth-child(even) {
+    background-color: #dddddd;
+}
+table.table_view tr:nth-child(odd) {
+   background-color:#e9e9e9;
+}
+
+@media (max-width: 350px) {
+
+  .gb-tools-toolbar{
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+
+}

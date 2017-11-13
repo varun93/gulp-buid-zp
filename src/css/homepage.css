@@ -1,0 +1,12 @@
+/* Homepage styles */
+
+.top-articles-home{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.top-articles-home > div{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+

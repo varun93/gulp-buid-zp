@@ -1,0 +1,16 @@
+.pager{
+	width: 100%; 
+	border-top: 1px solid #05B6BD;
+	text-align: center;
+}
+.pager > div{
+	display: inline-block;
+	color: black;
+	border: 1px solid #05B6BD;
+	border-top: none;padding: 15px;
+}
+
+.pager .more-stories{
+	color: black;
+	text-transform: uppercase;
+}

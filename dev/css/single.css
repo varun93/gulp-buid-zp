@@ -1,0 +1,329 @@
+/* Post title */
+h1.post-title, h2.post-title{
+    font-family: "Playfair Display",serif;
+    font-weight: bold;
+    text-transform: none;
+    line-height: 1.4em;
+	font-size: 20px;
+    line-height: 1.3em;
+    margin-bottom: 20px;
+    border-left: 0;
+    padding-left: 0;
+    color: #000;
+}
+
+h1.post-title, h2.post-title{
+    font-family: "Playfair Display",serif;
+    font-weight: bold;
+    text-transform: none;
+    line-height: 1.4em;
+    border-left: 0;
+    padding-left: 0;
+    color: #000;
+}
+
+.info-bar{
+	display: table;
+	margin-bottom: 20px;
+}
+.info-bar .author, .info-bar .info{
+	display: table-cell;
+}
+.info-bar .author img{
+	height: 50px;
+	width: 50px;
+}
+.info-bar .info{
+	vertical-align: top;
+	padding-left: 15px;
+	width: 100%;
+}
+
+/*  Info top row */
+.info-bar .info .top, .info-bar .info .bottom {
+    overflow: hidden;
+    font-size: 9px;
+    color: #CFCECE;
+}
+
+.info-bar .info .top .name {
+    float: left;
+    text-transform: uppercase;
+    color: #000;
+    margin-right: 5px;
+}
+
+.info-bar .info .bottom .subtopic {
+    font-family: "Open Sans",sans-serif;
+    color: #05B6BD;
+    border-top: 1px solid #05B6BD;
+    display: inline-block;
+}
+
+.info-bar .info .top .subtopic, .info-bar .info .bottom .subtopic {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* Post Body */
+.post-body {
+    position: relative;
+    color: #080a0b;
+    font: normal 16px "Open Sans",sans-serif;
+    line-height: 24px;
+	font-weight: 400;
+}
+
+/* Related Posts */
+.related-posts h4{
+	font-weight: bold;
+}
+
+.related-posts h4:after{
+	width: 72%;
+	border-width: 4px;
+}
+
+h3.related-posts-heading{
+	position: relative;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h3.related-posts-heading:after{
+	content: '';
+    width: 65%;
+    margin-left: 8px;
+    height: 2px;
+    background: #05B6BD;
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+}
+   
+
+
+/* Tag Cloud */
+.tagcloud ul li {
+    display: inline-block;
+    margin: 0 .3em .3em 0;
+    padding: 0;
+}
+
+.tagcloud ul li a {
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    text-transform: uppercase;
+    padding: 0px 1em;
+    background-color: #8675A1;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/* Card Design Overide */
+.single .article-card .overlay{
+	font-size: 18px;
+	line-height: 24px;
+	width: 90%;
+	min-height: 65px;
+}
+
+.single .article-card .category-label{
+	display: none;
+}
+
+/* Ad Slots */
+.ad-slot{
+    text-align:center;
+    margin:10px 0px;
+}
+
+@media (min-width: 759px){
+	
+	h3.related-posts-heading:after{
+	    height: 4px;
+	    margin-top: -2px;
+	}
+
+	h3.related-posts-heading:after{
+		width: 90%;
+	}
+
+}
+
+
+@media screen and (min-width: 1024px){
+	h1.post-title, h2.post-title{
+	    font-size: 42px;
+	    margin-bottom: 20px;
+	}
+	
+	.post-body {
+	    line-height: 26px;
+	}
+	
+	/* Info Bar */
+	.info-bar .info .top {
+	    border-top: 3px solid #E6E6E5;
+	    padding-top: 5px;
+	}
+	
+	.info-bar .info .top, .info-bar .info .bottom {
+    	font-size: 18px;
+	}
+
+	.info-bar .info .top .name {
+    	margin-bottom: 3px;
+	}
+
+	.info-bar .info .bottom .subtopic {
+	    border-top-width: 2px;
+	}
+
+
+}
+
+
+.share-options{
+    text-align: center;
+    padding-left: 0px;
+}
+
+.share-options li{
+	display: inline-block;
+	list-style: none;
+	line-height: 0;
+}
+
+.share-options li:not(:last-child) {
+    margin-right: 1px;
+}
+
+.share-options li a.facebook,.share-bar li a.facebook {
+    background: #4464AF;
+}
+
+.share-options li a.twitter,.share-bar li a.twitter {
+    background: #5FC9ED;
+}
+
+.share-options li a.pinterest,.share-bar li a.pinterest {
+    background: #E22F39;
+}
+
+.share-options li a{
+    position: relative;
+}
+
+.share-options li a img{
+    height: 30px;
+    position: absolute;
+    left: 30%;
+    top : 10%;
+}
+
+.share-options li a {
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    width: 55px;
+    height: 37px;
+    line-height: 47px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 759px){
+	
+    .share-options{
+        text-align: right;
+    }
+
+    .share-options li a img{
+        height: 40px;
+    }
+
+	.share-options li a {
+   		width: 100px;
+    	height: 50px;
+    	line-height: 70px;
+	}
+
+	.share-options li:not(:last-child) {
+    	margin-right: 2px;
+	}
+
+}
+
+
+/* Share strip inside article  */
+
+.share-bar li{
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.share-bar li a{
+    text-align: center;
+     display: block;
+     padding: 5px 20px;
+     line-height: 50px;
+     font-size: 23px;
+}
+
+.share-bar .share-bar-content{
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+.share-bar .share-bar-content .share-icon {
+    display: table-cell;
+    vertical-align: middle;    
+}
+
+.share-bar .share-bar-content .share-icon img{
+    width: 45px;
+    height: 45px;
+}
+
+.share-bar .share-bar-content .share-text{
+   display: none;
+   text-align: left; 
+   color: #fff;  
+   vertical-align: middle;
+}
+
+@media screen and (min-width: 1025px){
+
+    .share-bar li{
+        float: none;
+    }
+    
+    .share-bar li a{
+        width: 200px;  
+    }
+    
+    .share-bar .share-bar-content .share-text{
+        display: table-cell;
+    }
+
+}
+
+
+@media screen and (max-width: 450px){
+    
+    .share-bar li{
+        margin-right: 10px;
+    }
+
+    .share-bar li a{
+        padding: 5px;
+        line-height: 24px;
+    }
+
+}

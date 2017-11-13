@@ -1,0 +1,65 @@
+/* start new popup login and signup */
+
+.modal-dialog {
+    text-align: left;
+}
+
+#subscribePopup .modal-body {
+    padding-top: 2px;
+}
+#subscribePopup .form-group{
+    padding: 0px 30px 0px 30px; 
+}
+#subscribePopup .form-group a{
+    color: #000;
+    font-size: 11px;
+}
+#subscribePopup .btn-popup{
+    width:50%;
+    
+}
+#subscribePopup .description {
+    color: #000;
+    text-align: center;
+    margin: 0 0 12px 0;
+    padding-bottom: 10px;
+}
+#subscribePopup .description p{
+    padding: 0px 10px 0px 10px;
+}
+#subscribePopup .form-footer {
+    padding: 6px;
+    background:#eee;
+    text-align: center;
+    margin-bottom: -15px;
+}
+#subscribePopup .form-footer a {
+    color: #000;
+}
+#subscribePopup .modal-header {
+    padding: 5px;
+    border-bottom: 0px;
+    background: #fff;
+}
+
+#subscribePopup input:not([type=radio]) {   
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    outline:none; 
+    -webkit-box-shadow:none; 
+    box-shadow:none;
+    border-radius: 0px;
+}
+#subscribePopup #social img {
+           width:5%; 
+           margin:0 20px;
+}
+
+@media screen and (max-width: 699px) and (min-width: 320px) {
+
+    #subscribePopup #social img {
+        width:10%; 
+    }
+
+}
+/* end of new popup login and signup */

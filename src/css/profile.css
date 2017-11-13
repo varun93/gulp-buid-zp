@@ -1,0 +1,140 @@
+body {
+    background-color: #ddd;
+}
+nav div.profile-header-wrap {
+    position: relative;
+    min-height: 0px;
+    display: none;
+}
+
+nav div.profile-header {
+    position: absolute;
+    background: #8669ae;
+}
+.one-fourth-width {
+    width: 25%;
+}
+section.content {
+    padding-bottom: 0px;
+}
+
+nav > div.profile-header-wrap {
+    display: block;
+    position: relative;
+}
+
+nav .profile-header div.back-button img,
+nav .profile-header div.options img {
+    height: 20px;
+    margin: 15px;
+}
+
+nav .profile-header div.back-button {
+    float: left;
+    position: absolute;
+}
+
+nav .profile-header .info-header {
+    padding: 13px 0px;
+}
+
+nav .profile-header .info-header-text {
+    font-size: 17px;
+    color: white;
+    vertical-align: middle;
+}
+
+div .profile-image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    max-width: 200px;
+}
+
+div .edit-button {
+    position: absolute;
+    top: 30px;
+    right: calc(50% - 90px);
+    padding: 10px;
+}
+
+div .edit-button img {
+    height: 20px;
+}
+
+ul#profile-picture-options-dropdown {
+    position: absolute;
+    top: 60px;
+    left: calc(50% + 55px);
+}
+
+@media screen and (max-width: 434px) {
+    ul#profile-picture-options-dropdown {
+        left: calc(50% - 75px);
+    }
+}
+
+div.profile-name h3 {
+    font-weight: bold;
+}
+
+.profile-form {
+    overflow: hidden;
+}
+
+.profile-form-header p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.profile-form-edit img {
+    height: 15px;
+}
+
+span.form-control {
+    display: inline;
+    min-width: 100px;
+}
+
+#modal-img-preview {
+    max-width: 100%;
+    max-height: 70vh;
+}
+
+input.form-control.date {
+    padding: 0px;
+    border: none;
+    box-shadow: none;
+    border-radius: 0px;
+    width: auto;
+}
+
+input.form-control.date[disabled] {
+    background: transparent;
+}
+
+.sudoinput {
+    border-bottom: 1px solid #777 !important;
+    padding: 5px 0px;
+}
+
+.sudoinput,
+.sudoinput:focus {
+    outline: 0px solid transparent;
+}
+
+.sudoinput::after {
+    background-image: url('../gb-assets/icons/profile/edit_pink.svg');
+    background-size: cover;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    content: '';
+    margin-left: 5px;
+}
+
+#save-form {
+    display: none;
+}

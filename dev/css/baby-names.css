@@ -1,0 +1,253 @@
+section {
+    margin: 0 90px;
+}
+a {
+    color: #231f20;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+    font-size: 16px;
+}
+h1 {
+    font-weight: 400;
+}
+.main-content div.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.nav>li>a {
+    padding: 10px 15px;
+    background: #ddd;
+    border: 1px solid #ccc;
+}
+
+.nav>li>a>img {
+    height: 20px !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.main-content {
+    margin-bottom: 20px;
+}
+
+.letters-gender {
+    line-height: normal;
+    width: 9%;
+}
+.babynames{
+    height: 350px !important;
+    overflow-y: scroll !important;
+}
+.name-meaning{
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0px;
+    background: #fff;
+}
+
+tr {
+    border: 1px solid #fdfdfd;
+}
+
+tr > td {
+    padding: 8px;
+    vertical-align: middle;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(100, 100, 100, 1);
+    box-shadow: 0px 0px 5px 0px rgba(100, 100, 100, 1);
+    border: 1px solid #aaa;
+}
+
+.letters-block {
+    width: 100%;
+}
+
+ul.letters {
+    width: 100%;
+    display: inline-block;
+}
+
+.tab-links {
+    line-height: 35px;
+}
+
+.letter-selector {
+    margin-top: 20px;
+}
+
+ul.letters > li {
+    float: left;
+    padding-right: calc(100%/88);
+    padding-left: calc(100%/88);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style: none;
+}
+
+.center-text {
+    text-align: center;
+
+}
+div.names {
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.no-side-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+h2 {
+    margin: 10px 0;
+}
+li.letter > a {
+    font-weight: bold;
+}
+
+li.letter.active {
+    background: #FDA953;
+}
+
+li.letter.active > a {
+    color: black
+}
+
+.baby-ext-link {
+    margin-bottom: 20px;
+}
+
+.baby-ext-link > div.row > div.no-side-padding {
+    line-height: 30px;
+}
+
+.related-names {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(100, 100, 100, 1);
+    box-shadow: 0px 0px 5px 0px rgba(100, 100, 100, 1);
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+a .row.link {
+    border-top: 1px solid black;
+    padding: 2px 0px;
+}
+
+a .row.link:hover {
+    background: #ddd;
+    cursor: pointer;
+}
+
+.row.table-title {
+    background: #8669ae;
+    color: white;
+}
+
+.grid-heading > div > div > h2 {
+    color: white !important;
+    font-size: 20px !important;
+}
+
+.main-box {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(100, 100, 100, 1);
+    box-shadow: 0px 0px 5px 0px rgba(100, 100, 100, 1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.name-title {
+    font-weight: bold !important;
+    color: #8669ae;
+}
+
+.table-link {
+    background: #ffc800;
+}
+
+.letter-button {
+    font-size: 34px;
+    padding: 0px 15px;
+    background: #8669ae;
+    color: white;
+}
+
+.letter-button:hover {
+    font-size: 34px;
+    padding: 0px 15px;
+    background: #8669ae;
+    color: white;
+    cursor: default;
+}
+
+.btn-breadcrumb {
+    background: #FDA953;
+    color: black;
+    margin-top: 10px;
+}
+
+b {
+    font-weight: bold !important;
+}
+
+@media (max-width: 1199px) and (min-width: 768px){
+.hidden-md {
+    display: none !important;
+}
+.heading-text{
+        margin: 10px !important;
+    }
+
+}
+@media only screen and (min-width: 1200px) {
+.hidden-lg {
+    display: none !important;
+}
+}
+
+@media screen and (max-width: 768px) {
+    p.name {
+        font-weight: bold !important;
+        color: #8669ae !important;
+    }
+
+    .right-small-text {
+        text-align: right;
+         margin: 0px;
+    }
+
+    .right-small-text u{
+         text-decoration: none;
+         color: #8669ae;
+    }
+    div.names {
+        border: none;
+    }
+    a .row.link {
+        border: none;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(100, 100, 100, 1);
+        box-shadow: 0px 0px 5px 0px rgba(100, 100, 100, 1);
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .slight-margin {
+        margin: 10px;
+    }
+    ul.letters > li {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 767px) {
+     .left-small-text {
+        text-align: left;
+        margin: 0px;
+    }
+}
+

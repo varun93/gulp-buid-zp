@@ -1,0 +1,263 @@
+.coupon-flow img, .giver-image img, .doc-image img, .coupon-services img {
+    display: block;
+    margin: 0 auto;
+}
+.coupon-main-content-us {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.coupon-content-us {
+    color: #4E4E4E;
+}
+img.price-logo {
+    height: 130px;
+    width: 130px;
+}
+#payment-modes {
+    padding-top: 63px;
+}
+.title, .coupon-title h1 {
+    margin-top: 5px;
+}
+.service-title {
+    font-weight: bold;
+}
+.buy-now-section {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.term-ref {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.frequent-questions {
+    background-color: #DBDBDB;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.frequent-questions a, .frequent-questions a:visited, .frequent-questions a:hover  {
+    text-decoration: none;
+}
+.coupon-main-content > img {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+}
+.coupon-main-content {
+    padding-bottom: 0;
+}
+.coupon-title h1 {
+    color: #8C69A1;
+    font-weight: bold;
+}
+.buy-coupon {
+    background-color: #8C69A1;
+    padding: 10px 50px;
+    color: #fff; 
+}
+a.buy-coupon:hover {
+    background-color: #8C69A1;
+}
+.coupon-flow .row, .coupon-services .row {
+    margin: 5px 0;
+}
+.flow-desc {
+    margin-top: 12px;
+}
+.service-info {
+    margin-top: 7px;
+}
+.coupon-buy-now, .term-ref {
+    text-align: center;
+}
+.term-ref > a{
+    color: #333;
+}
+.doctor-profile {
+    padding-left: 0;
+    padding-right: 0;
+}
+.testimonials {
+    padding-left: 0;
+    padding-right: 0;
+}
+.coupon-buy-now-us {
+    margin-top: 13px;
+}
+@media screen and (max-width: 767px) {
+        body {
+            background-color: #ddd;
+            padding-top: 120px;
+        }
+        nav .sub-header {
+            display: none;
+        }
+        .alerts, .language.dropdown {
+            display: none;
+        }
+        .flow-desc, .service-title, .service-desc {
+            text-align: left;
+        }
+        img.price-logo {
+            margin-top: -70px;
+        }
+        .coupon-content-us {
+            margin-top: 10px;
+        }
+    }
+@media only screen and (min-width: 1024px) {
+    .doctor-profile > .card, .testimonials > .card {
+        height: 375px;
+    }
+    .coupon-title-us h1 {
+        font-size: 50px;
+    }
+    img.price-logo {
+        margin-left: 50px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    img.price-logo {
+        height: 160px;
+        width: 160px;
+    }
+    .coupon-buy-now-us {
+        margin-top: 35px;
+    }
+    .coupon-content-us {
+        font-size: 16px;
+        margin-top: 13px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .coupon-title-us h1 {
+        font-size: 35px !important;
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .title {
+        font-size: 20px;
+    }
+    .coupon-title h1 {
+        font-size: 25px;
+    }
+    #doctor-profile > img {
+        display: block;
+        margin: 0 auto;
+    }
+    .coupon-title {
+        text-align: center;
+    }
+    .coupon-flow img, .coupon-services img {
+        height: 60px;
+        width: 60px;
+    }
+    .term-conditions h3 {
+        font-size: 18px !important;
+    }
+    .coupon-flow .title, .term-conditions .title, .testimonials .title, .doctor-profile .title, .coupon-services .title, .coupon-flow .title
+    {
+        border-bottom: 1px solid #FF547C;
+        padding-bottom: 10px;
+    }
+    body {
+        padding-top: 60px;
+    }
+}
+.continue
+{
+    border-radius : 0px; 
+}
+
+.user-phone
+{
+    margin-bottom: 10px;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+}
+.btn.focus, .btn:focus, .btn:hover
+{
+    color: white;
+}
+
+.checkout-btn{
+    width: 100%;
+    border-radius: 0px;
+    padding:20px;
+    color: white;
+    margin-bottom: 15px !important;
+}
+
+input {
+    border-radius: 0px !important;
+    border: 1px solid #FF547C !important;
+}
+.payment-toggle {
+    display: none;
+}
+
+.hide {
+display: none;
+}
+
+div[data-coupon-type="product"] .user-phone {
+display: none;
+}
+
+#online-payment-btn {
+background: #FF547C;
+}
+
+#telecom-payment-btn {
+background: #008687;
+}
+
+.checkout-btn .glyphicon {
+font-size: 30px;
+}
+
+
+nav > div.coupon-checkout-header-wrap {
+    display: block;
+    position: relative;
+}
+
+nav  div.coupon-checkout-header {
+    position: absolute;
+    background: #809F6F;    
+}
+
+nav .coupon-checkout-header div.back-button {
+    float: left;
+}
+
+nav .coupon-checkout-header div.back-button img {
+    height: 20px;
+    margin: 15px;
+}
+
+nav .coupon-checkout-header .info-header {
+    padding: 13px 0px;
+}
+
+nav .coupon-checkout-header .info-header-text {
+    font-size: 17px !important;
+    color: white;
+    text-align: center;
+    margin: 2px 5px;
+}
+
+#free-btn {
+    background: #8675A1;
+}

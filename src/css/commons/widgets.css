@@ -1,0 +1,81 @@
+.widget{
+   margin-bottom: 25px;
+   padding : 20px;
+   border-radius: 5px;
+}
+
+.widget.pink{
+   background: #FF547C;
+}
+
+.widget.blue{
+   background: #009FA0;
+}
+
+.widget.orange{
+   background: #EF8A3F;
+}
+
+.widget.green{
+   background: #86AB6F;
+}
+
+.widget.purple{
+   background: #8675A1;
+}
+
+.widget .widget-icon img{
+   width: 100px;
+   height: 100px;
+}
+
+.widget .widget-info{
+   text-align: center;
+   display: block;
+   color: white;
+   font-size: 18px;
+}
+
+.widget .widget-info .title{
+   font-weight: 500;
+   line-height: 24px;
+}
+
+.widget .widget-info .description{
+   margin-bottom: 15px;
+}
+
+.widget .widget-info .description p{
+   font-size: 16px;
+}
+
+.widget .widget-info .call-to-action{
+   width: 100%;
+   text-align: center;
+}
+
+.widget .widget-info .call-to-action a{
+   border-radius: 25px;
+   background: transparent;
+   display: block;
+   padding: 10px; 
+   color : white;
+   border : 1px solid white;
+}
+
+.widget .widget-info .description p,.widget .widget-info .call-to-action a{
+   font-family: "Playfair Display",serif;
+}
+
+@media screen and (max-width: 340px){
+   .widget .widget-icon img{
+      width: 60px;
+      height: 60px;
+   }
+}
+
+@media screen and (min-width: 1024px){
+   .widget .widget-info .call-to-action a{
+      width: 75%;
+   }
+}

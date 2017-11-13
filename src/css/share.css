@@ -1,0 +1,140 @@
+.share-options{
+    text-align: center;
+    padding-left: 0px;
+}
+
+.share-options li{
+	display: inline-block;
+	list-style: none;
+	line-height: 0;
+}
+
+.share-options li:not(:last-child) {
+    margin-right: 1px;
+}
+
+.share-options li a.facebook,.share-bar li a.facebook {
+    background: #4464AF;
+}
+
+.share-options li a.twitter,.share-bar li a.twitter {
+    background: #5FC9ED;
+}
+
+.share-options li a.pinterest,.share-bar li a.pinterest {
+    background: #E22F39;
+}
+
+.share-options li a{
+    position: relative;
+}
+
+.share-options li a img{
+    height: 30px;
+    position: absolute;
+    left: 30%;
+    top : 10%;
+}
+
+.share-options li a {
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    width: 55px;
+    height: 37px;
+    line-height: 47px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 759px){
+	
+    .share-options{
+        text-align: right;
+    }
+
+    .share-options li a img{
+        height: 40px;
+    }
+
+	.share-options li a {
+   		width: 100px;
+    	height: 50px;
+    	line-height: 70px;
+	}
+
+	.share-options li:not(:last-child) {
+    	margin-right: 2px;
+	}
+
+}
+
+
+/* Share strip inside article  */
+
+.share-bar li{
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.share-bar li a{
+    text-align: center;
+     display: block;
+     padding: 5px 20px;
+     line-height: 50px;
+     font-size: 23px;
+}
+
+.share-bar .share-bar-content{
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+.share-bar .share-bar-content .share-icon {
+    display: table-cell;
+    vertical-align: middle;    
+}
+
+.share-bar .share-bar-content .share-icon img{
+    width: 45px;
+    height: 45px;
+}
+
+.share-bar .share-bar-content .share-text{
+   display: none;
+   text-align: left; 
+   color: #fff;  
+   vertical-align: middle;
+}
+
+@media screen and (min-width: 1025px){
+
+    .share-bar li{
+        float: none;
+    }
+    
+    .share-bar li a{
+        width: 200px;  
+    }
+    
+    .share-bar .share-bar-content .share-text{
+        display: table-cell;
+    }
+
+}
+
+
+@media screen and (max-width: 450px){
+    
+    .share-bar li{
+        margin-right: 10px;
+    }
+
+    .share-bar li a{
+        padding: 5px;
+        line-height: 24px;
+    }
+
+}

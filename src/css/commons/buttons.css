@@ -1,0 +1,38 @@
+/* buttons */
+.btn-shadow {
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+
+.more-button {
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.btn-sharp {
+    border-radius: 0px;
+}
+.btn-zp-primary,
+.btn-zp-primary:hover,
+.btn-zp-primary:active {
+    background: #8675A1;
+    color: white;
+}
+
+.btn-zp-more,
+.btn-zp-more:hover,
+.btn-zp-more:active {
+    background: #009FA0;
+    color: white;
+}
+
+.btn-zp-edit,
+.btn-zp-edit:hover,
+.btn-zp-edit:active {
+    background: #FF547C;
+    color: white;
+}
+
+/* End of buttons */
