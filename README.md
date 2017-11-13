@@ -1,6 +1,6 @@
 # README # 
 
-This project was started when I was exploring gulp builds for javascript and css for Zenparent.
+This project was started while I was exploring gulp builds for javascript and css for Zenparent.
 
 ### What is this repository for? ###
 
